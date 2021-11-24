@@ -9,7 +9,7 @@ function FriendList({ friends }) {
           <FriendListItem
             key={id}
             id={id}
-            isOnLine={isOnline}
+            isOnline={isOnline}
             avatar={avatar}
             name={name}
           />
